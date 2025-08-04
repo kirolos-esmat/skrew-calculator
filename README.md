@@ -18,10 +18,14 @@
 
 ## 📱 Screenshots
 
-_Add gameplay screenshots here_
+<div align="center">
 
-- ![Main Screen](assets/screenshots/main.png)
-- ![History](assets/screenshots/history.png)
+| ![Screenshot 1](assets/screenshots/1.png) | ![Screenshot 2](assets/screenshots/2.png) | ![Screenshot 3](assets/screenshots/3.png) |
+| :---------------------------------------: | :---------------------------------------: | :---------------------------------------: |
+| ![Screenshot 4](assets/screenshots/4.png) | ![Screenshot 5](assets/screenshots/5.png) |
+|        :-------------------------:        |        :-------------------------:        |
+
+</div>
 
 ## 🔗 Download
 
