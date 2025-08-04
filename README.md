@@ -31,6 +31,7 @@ Score Calculator is a simple and effective application for tracking scores acros
 <div align="center">
 
 | ![Screenshot 1](assets/screenshots/1.png) | ![Screenshot 2](assets/screenshots/2.png) | ![Screenshot 3](assets/screenshots/3.png) |
+| :---------------------------------------: | :---------------------------------------: | :---------------------------------------: |
 | ![Screenshot 4](assets/screenshots/4.png) | ![Screenshot 5](assets/screenshots/5.png) |
 
 </div>
