@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy - Scrow Calculator (سكرو)</title>
-  <meta name="description" content="Privacy Policy for Scrow Calculator. Details regarding data handling, Google AdMob advertising, and EU User Consent Policy compliance.">
+  <title>Privacy Policy - Skrew Calculator</title>
+  <meta name="description" content="Privacy Policy for Skrew Calculator. Details about local game records, advertising data, and user choices.">
   <link rel="canonical" href="https://kirolos-esmat.github.io/skrew-calculator/">
   <style>
     :root {
       --bg: #0d1117;
-      --card-bg: rgba(22, 27, 34, 0.85);
+      --card-bg: #161b22;
       --border: #30363d;
       --text: #c9d1d9;
       --heading: #f0f6fc;
       --accent: #58a6ff;
-      --accent-glow: rgba(88, 166, 255, 0.15);
-      --badge-bg: #1f6feb26;
-      --badge-border: #388bfd4d;
+      --accent-glow: #1f6feb;
+      --badge-bg: #1f6feb;
+      --badge-border: #388bfd;
       --badge-text: #58a6ff;
       --secondary-text: #8b949e;
       --code-bg: #161b22;
@@ -31,9 +31,9 @@
         --text: #24292f;
         --heading: #1f2328;
         --accent: #0969da;
-        --accent-glow: rgba(9, 105, 218, 0.08);
+        --accent-glow: #ddf4ff;
         --badge-bg: #ddf4ff;
-        --badge-border: #54aeff66;
+        --badge-border: #54aeff;
         --badge-text: #0969da;
         --secondary-text: #57606a;
         --code-bg: #f6f8fa;
@@ -63,9 +63,7 @@
       border: 1px solid var(--border);
       border-radius: 16px;
       padding: 2.5rem;
-      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.25);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
     }
 
     @media (max-width: 640px) {
@@ -196,6 +194,25 @@
       text-decoration: underline;
     }
 
+    a:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 3px;
+      border-radius: 3px;
+    }
+
+    p, li, h1, h2, h3 {
+      overflow-wrap: anywhere;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+      }
+    }
+
     .callout {
       background: var(--accent-glow);
       border-left: 4px solid var(--accent);
@@ -242,13 +259,13 @@
   <div class="container">
     <header>
       <span class="app-badge">🃏 Official Privacy Notice</span>
-      <h1>Privacy Policy for Scrow Calculator (سكرو)</h1>
+      <h1>Privacy Policy for Skrew Calculator <span lang="ar" dir="rtl">(سكرو)</span></h1>
       <p class="subtitle">Effective Date & Last Updated: September 14, 2026</p>
 
       <div class="meta-box">
         <div class="meta-item">
           <strong>Application</strong>
-          <span>Scrow Calculator (سكرو)</span>
+          <span>Skrew Calculator <span lang="ar" dir="rtl">(سكرو)</span></span>
         </div>
         <div class="meta-item">
           <strong>Developer</strong>
@@ -269,10 +286,10 @@
       <section>
         <h2>1. Overview</h2>
         <p>
-          <strong>Scrow Calculator (سكرو)</strong> ("the App", "we", "our", or "us") is a lightweight, high-performance companion tool designed to calculate and track round scores for the Scrow card game. We are dedicated to respecting and safeguarding your personal privacy.
+          <strong>Skrew Calculator <span lang="ar" dir="rtl">(سكرو)</span></strong> ("the App", "we", "our", or "us") is a companion tool for calculating and tracking round scores for the Skrew card game. We aim to describe the App's data practices clearly.
         </p>
         <p>
-          This policy provides a transparent summary of the data practices associated with your use of the App. It is designed to satisfy the strict requirements of the <strong>General Data Protection Regulation (GDPR)</strong>, the <strong>California Consumer Privacy Act (CCPA / CPRA)</strong>, and the <strong><a href="https://www.google.com/about/company/user-consent-policy.html" target="_blank" rel="noopener noreferrer">Google EU User Consent Policy</a></strong>.
+          This policy explains what information may be collected, how it may be used, and the choices available to you. It describes the App's current practices and is not legal advice.
         </p>
       </section>
 
@@ -285,16 +302,16 @@
 
         <h3>2.2 Local Storage Only (On-Device)</h3>
         <ul>
-          <li><strong>Game Tallies & Player Names:</strong> Custom player names and score records entered during gameplay are stored exclusively on your device via local storage (<code>SharedPreferences</code>).</li>
+          <li><strong>Game Tallies & Player Names:</strong> Custom player names and score records entered during gameplay are intended to remain on your device using the App's local storage.</li>
           <li><strong>Preferences:</strong> User settings, such as your selected language (Arabic or English), are stored strictly on-device.</li>
-          <li><strong>No Cloud Transmissions:</strong> The developer does not maintain remote servers or databases for gameplay records. Your gameplay data never leaves your device and can be permanently erased at any time by clearing application storage or uninstalling the App.</li>
+          <li><strong>No Developer Cloud Sync:</strong> The developer does not operate a gameplay database or account-sync service. Local records can be erased by clearing application storage or uninstalling the App. Advertising providers may still process separate technical data as described below.</li>
         </ul>
       </section>
 
       <section>
         <h2>3. Third-Party Advertising (Google AdMob)</h2>
         <p>
-          To maintain Scrow Calculator as a free tool, we integrate <strong>Google AdMob</strong> (operated by Google LLC) to serve advertisements (banners and interstitial ads).
+          To maintain Skrew Calculator as a free tool, we integrate <strong>Google AdMob</strong> (operated by Google LLC) to serve advertisements (banners and interstitial ads).
         </p>
 
         <h3>3.1 Information Collected Automatically by Google AdMob</h3>
@@ -307,6 +324,8 @@
           <li><strong>Device Technical Information:</strong> Hardware model, device manufacturer, operating system version, screen resolution, network connection type, and mobile carrier.</li>
           <li><strong>Performance & Ad Interaction Telemetry:</strong> Ad impressions, user click activity, ad load latency, and anonymized diagnostic crash logs.</li>
         </ul>
+
+        <p class="callout"><strong>Play Console disclosure:</strong> Google Play's Data safety declaration is maintained separately and must match the advertising SDKs and consent settings used by the released build. Review both disclosures whenever the build or SDK configuration changes.</p>
 
         <h3>3.2 Purposes of Processing</h3>
         <p>
@@ -329,12 +348,12 @@
       <section>
         <h2>4. Cookies, Device Storage & Google EU User Consent</h2>
         <p>
-          In accordance with the <strong>Google EU User Consent Policy</strong> and the European <strong>ePrivacy Directive</strong>:
+          Where applicable, the App uses Google's consent tools to support the <strong>Google EU User Consent Policy</strong> and relevant privacy requirements:
         </p>
         <ul>
           <li><strong>Storage of Identifiers:</strong> Google and its authorized advertising partners may store and access cookies, mobile identifiers, and device storage to deliver ads, measure ad effectiveness, and combat abuse.</li>
-          <li><strong>Consent Framework:</strong> For users located in the European Economic Area (EEA), the United Kingdom, and Switzerland, we present Google's certified <strong>User Messaging Platform (UMP)</strong> consent dialogue. This allows you to grant or withhold consent for personalized advertising and the associated use of cookies/identifiers.</li>
-          <li><strong>Certified Ad Technology Providers:</strong> The specific ad technology providers used by Google AdMob are itemized and disclosed directly within the consent management interface in compliance with the IAB Europe Transparency and Consent Framework (TCF).</li>
+          <li><strong>Consent Framework:</strong> Where the App presents a <strong>User Messaging Platform (UMP)</strong> consent dialogue, it gives you choices regarding identifiers and personalized advertising.</li>
+          <li><strong>Ad Technology Providers:</strong> Where provided by the consent management dialogue, Google discloses the ad technology providers used for the relevant request.</li>
         </ul>
       </section>
 
@@ -344,8 +363,8 @@
           If you are situated in the EEA, the UK, or Switzerland, you possess specific legal rights regarding your personal data:
         </p>
         <ul>
-          <li><strong>Right to Withdraw Consent:</strong> You have the unconditional right to withdraw or adjust your consent choices at any time.</li>
-          <li><strong>Right of Access & Erasure:</strong> You may request access to or deletion of data collected by third-party providers.</li>
+          <li><strong>Right to Withdraw Consent:</strong> Where consent is the legal basis, you can withdraw or adjust your consent choices at any time.</li>
+          <li><strong>Right of Access & Erasure:</strong> You may have the right to request access to or deletion of personal data, subject to applicable law and the relevant provider's role.</li>
           <li><strong>Right to Object:</strong> You can object to data processing based on legitimate interests for advertising.</li>
           <li><strong>Right to Lodge a Complaint:</strong> You can submit a grievance to your national Data Protection Authority (DPA).</li>
         </ul>
@@ -354,7 +373,7 @@
         <ol>
           <li><strong>In-App Privacy Settings:</strong> Access the consent options dialogue inside the App to reconfigure your ad preferences.</li>
           <li><strong>Android Device Settings:</strong> Open <em>Settings &gt; Google &gt; Ads</em> and select <em>Delete advertising ID</em> or opt out of personalized ads.</li>
-          <li><strong>iOS Device Settings:</strong> Open <em>Settings &gt; Privacy &amp; Security &gt; Tracking</em> and disable tracking permissions for Scrow Calculator.</li>
+          <li><strong>iOS Device Settings:</strong> Open <em>Settings &gt; Privacy &amp; Security &gt; Tracking</em> and disable tracking permissions for Skrew Calculator.</li>
         </ol>
       </section>
 
@@ -366,14 +385,14 @@
         <ul>
           <li><strong>No Monetary Sale:</strong> We do not sell your personal information for monetary payment.</li>
           <li><strong>Cross-Context Behavioral Advertising:</strong> Third-party ad networks may utilize device identifiers to provide interest-based advertising. You may opt out of this sharing via your device's operating system advertising controls as outlined above.</li>
-          <li><strong>Non-Discrimination:</strong> Exercising your privacy rights will never result in degraded app functionality or penalty.</li>
+          <li><strong>Non-Discrimination:</strong> We will not discriminate against you for exercising applicable privacy rights.</li>
         </ul>
       </section>
 
       <section>
         <h2>7. Children's Online Privacy (COPPA & GDPR-K)</h2>
         <p>
-          Scrow Calculator is designed for general audiences and card game enthusiasts. We do not knowingly collect personal information from children under 13 years of age (or under 16 in the European Union). If we become aware that a child has provided personal information without verified parental consent, we will promptly take steps to delete that data. If you have concerns, please reach out to us at <a href="mailto:kirolos.esmat10@gmail.com">kirolos.esmat10@gmail.com</a>.
+          Skrew Calculator is designed for general audiences and card game enthusiasts. We do not knowingly collect personal information from children under 13 years of age (or under 16 in the European Union). If we become aware that a child has provided personal information without verified parental consent, we will promptly take steps to delete that data. If you have concerns, please reach out to us at <a href="mailto:kirolos.esmat10@gmail.com">kirolos.esmat10@gmail.com</a>.
         </p>
       </section>
 
@@ -407,7 +426,7 @@
     </main>
 
     <footer>
-      <p>&copy; 2026 Kirolos Esmat &bull; Scrow Calculator (سكرو)</p>
+      <p>&copy; 2026 Kirolos Esmat &bull; Skrew Calculator <span lang="ar" dir="rtl">(سكرو)</span></p>
       <p style="margin-top: 0.5rem;">
         <a href="https://github.com/kirolos-esmat/skrew-calculator" target="_blank" rel="noopener noreferrer">GitHub Repository</a> &bull;
         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google AdMob Partner Disclosures</a>
