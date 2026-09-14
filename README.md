@@ -2,16 +2,28 @@
 
 [العربية](README.ar.md) · [Google Play](https://play.google.com/store/apps/details?id=com.Hedwig.scrow_calculator)
 
-Skrew Calculator is a companion app for keeping score in Skrew card games. Create a game, add players, enter round scores, and review the final standings and saved history.
+Keep game night moving—not the scorekeeping. Skrew Calculator is a friendly companion for Skrew card games: create a game, add players, enter round scores, and review the final standings and saved history when the cards are down.
+
+Whether you are playing in Arabic or English, the app keeps each round clear so everyone can stay focused on the fun.
+
+## A quick look
+
+<div align="center">
+  <img src="assets/screenshots/1.png" alt="Skrew Calculator player setup screen" width="18%" />
+  <img src="assets/screenshots/2.png" alt="Skrew Calculator score overview screen" width="18%" />
+  <img src="assets/screenshots/3.png" alt="Skrew Calculator round score-entry screen" width="18%" />
+  <img src="assets/screenshots/4.png" alt="Skrew Calculator score results screen" width="18%" />
+  <img src="assets/screenshots/5.png" alt="Skrew Calculator game history screen" width="18%" />
+</div>
 
 ## Features
 
 - Set up games for 2–10 players and 1–10 rounds.
-- Enter scores round by round with quick `2×` and `4×` score controls.
-- View player standings and the winner at the end of a game.
-- Keep a history of completed games and winners.
-- Switch between Arabic and English.
-- Designed for mobile play with a clear, touch-friendly interface.
+- Add scores one round at a time, with handy `2×` and `4×` controls when you need them.
+- See player standings and celebrate the winner when the game ends.
+- Look back at completed games and past winners whenever you like.
+- Switch comfortably between Arabic and English.
+- Play on a clear, touch-friendly mobile interface made for the table.
 
 ## Get the app
 
