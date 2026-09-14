@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Scrow Calculator (سكرو)</title>
+  <meta name="description" content="Privacy Policy for Scrow Calculator. Details regarding data handling, Google AdMob advertising, and EU User Consent Policy compliance.">
+  <link rel="canonical" href="https://kirolos-esmat.github.io/skrew-calculator/">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: rgba(22, 27, 34, 0.85);
+      --border: #30363d;
+      --text: #c9d1d9;
+      --heading: #f0f6fc;
+      --accent: #58a6ff;
+      --accent-glow: rgba(88, 166, 255, 0.15);
+      --badge-bg: #1f6feb26;
+      --badge-border: #388bfd4d;
+      --badge-text: #58a6ff;
+      --secondary-text: #8b949e;
+      --code-bg: #161b22;
+      --hr: #21262d;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f6f8fa;
+        --card-bg: #ffffff;
+        --border: #d0d7de;
+        --text: #24292f;
+        --heading: #1f2328;
+        --accent: #0969da;
+        --accent-glow: rgba(9, 105, 218, 0.08);
+        --badge-bg: #ddf4ff;
+        --badge-border: #54aeff66;
+        --badge-text: #0969da;
+        --secondary-text: #57606a;
+        --code-bg: #f6f8fa;
+        --hr: #d8dee4;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.68;
+      padding: 2rem 1rem;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.25);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 1rem 0.5rem;
+      }
+      .container {
+        padding: 1.5rem 1.25rem;
+        border-radius: 12px;
+      }
+    }
+
+    header {
+      border-bottom: 1px solid var(--hr);
+      padding-bottom: 1.75rem;
+      margin-bottom: 2rem;
+    }
+
+    .app-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 0.3rem 0.75rem;
+      border-radius: 9999px;
+      background: var(--badge-bg);
+      border: 1px solid var(--badge-border);
+      color: var(--badge-text);
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 750;
+      color: var(--heading);
+      letter-spacing: -0.025em;
+      margin-bottom: 0.5rem;
+      line-height: 1.25;
+    }
+
+    .subtitle {
+      font-size: 1.05rem;
+      color: var(--secondary-text);
+      margin-bottom: 1.25rem;
+    }
+
+    .meta-box {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0.75rem;
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      font-size: 0.88rem;
+    }
+
+    .meta-item strong {
+      display: block;
+      color: var(--heading);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.2rem;
+    }
+
+    .meta-item a {
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    .meta-item a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 2.25rem;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--heading);
+      margin-top: 1.5rem;
+      margin-bottom: 0.85rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--hr);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    h3 {
+      font-size: 1.08rem;
+      font-weight: 650;
+      color: var(--heading);
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    ul, ol {
+      margin-bottom: 1.25rem;
+      padding-left: 1.4rem;
+    }
+
+    li {
+      margin-bottom: 0.45rem;
+    }
+
+    strong {
+      color: var(--heading);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .callout {
+      background: var(--accent-glow);
+      border-left: 4px solid var(--accent);
+      border-radius: 6px;
+      padding: 1rem 1.25rem;
+      margin: 1.25rem 0;
+      font-size: 0.94rem;
+    }
+
+    .callout strong {
+      color: var(--accent);
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.86em;
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 0.15rem 0.35rem;
+      border-radius: 4px;
+    }
+
+    footer {
+      border-top: 1px solid var(--hr);
+      padding-top: 1.5rem;
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--secondary-text);
+    }
+
+    footer a {
+      color: var(--secondary-text);
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <span class="app-badge">🃏 Official Privacy Notice</span>
+      <h1>Privacy Policy for Scrow Calculator (سكرو)</h1>
+      <p class="subtitle">Effective Date & Last Updated: September 14, 2026</p>
+
+      <div class="meta-box">
+        <div class="meta-item">
+          <strong>Application</strong>
+          <span>Scrow Calculator (سكرو)</span>
+        </div>
+        <div class="meta-item">
+          <strong>Developer</strong>
+          <span>Kirolos Esmat</span>
+        </div>
+        <div class="meta-item">
+          <strong>Contact</strong>
+          <a href="mailto:kirolos.esmat10@gmail.com">kirolos.esmat10@gmail.com</a>
+        </div>
+        <div class="meta-item">
+          <strong>Source Repository</strong>
+          <a href="https://github.com/kirolos-esmat/skrew-calculator" target="_blank" rel="noopener noreferrer">GitHub Project</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>1. Overview</h2>
+        <p>
+          <strong>Scrow Calculator (سكرو)</strong> ("the App", "we", "our", or "us") is a lightweight, high-performance companion tool designed to calculate and track round scores for the Scrow card game. We are dedicated to respecting and safeguarding your personal privacy.
+        </p>
+        <p>
+          This policy provides a transparent summary of the data practices associated with your use of the App. It is designed to satisfy the strict requirements of the <strong>General Data Protection Regulation (GDPR)</strong>, the <strong>California Consumer Privacy Act (CCPA / CPRA)</strong>, and the <strong><a href="https://www.google.com/about/company/user-consent-policy.html" target="_blank" rel="noopener noreferrer">Google EU User Consent Policy</a></strong>.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. Information Handled Directly by the App</h2>
+        <h3>2.1 No Account or Personal Identity Information</h3>
+        <p>
+          The App does not require registration, login, or personal profile creation. We do not solicit or record your name, physical address, email address, phone number, or payment details.
+        </p>
+
+        <h3>2.2 Local Storage Only (On-Device)</h3>
+        <ul>
+          <li><strong>Game Tallies & Player Names:</strong> Custom player names and score records entered during gameplay are stored exclusively on your device via local storage (<code>SharedPreferences</code>).</li>
+          <li><strong>Preferences:</strong> User settings, such as your selected language (Arabic or English), are stored strictly on-device.</li>
+          <li><strong>No Cloud Transmissions:</strong> The developer does not maintain remote servers or databases for gameplay records. Your gameplay data never leaves your device and can be permanently erased at any time by clearing application storage or uninstalling the App.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. Third-Party Advertising (Google AdMob)</h2>
+        <p>
+          To maintain Scrow Calculator as a free tool, we integrate <strong>Google AdMob</strong> (operated by Google LLC) to serve advertisements (banners and interstitial ads).
+        </p>
+
+        <h3>3.1 Information Collected Automatically by Google AdMob</h3>
+        <p>
+          When you run the App, Google AdMob and its advertising partners may automatically collect certain diagnostic and technical information, including:
+        </p>
+        <ul>
+          <li><strong>Advertising Identifiers:</strong> Mobile advertising identifiers such as the Google Advertising ID (GAID / AAID) on Android, or the Identifier for Advertisers (IDFA) on iOS (if tracking authorization is granted), as well as vendor identifiers (IDFV).</li>
+          <li><strong>Approximate Location:</strong> Your Internet Protocol (IP) address is used by Google to estimate coarse (city- or country-level) location for localized ads and ad security.</li>
+          <li><strong>Device Technical Information:</strong> Hardware model, device manufacturer, operating system version, screen resolution, network connection type, and mobile carrier.</li>
+          <li><strong>Performance & Ad Interaction Telemetry:</strong> Ad impressions, user click activity, ad load latency, and anonymized diagnostic crash logs.</li>
+        </ul>
+
+        <h3>3.2 Purposes of Processing</h3>
+        <p>
+          Google processes this data to:
+        </p>
+        <ul>
+          <li>Serve relevant ads (contextual or personalized, based on your consent preferences).</li>
+          <li>Prevent duplicate ads through frequency capping.</li>
+          <li>Detect and prevent click fraud, invalid traffic, and security threats.</li>
+          <li>Compile aggregated advertising performance metrics.</li>
+        </ul>
+
+        <div class="callout">
+          <strong>Important Link:</strong> Learn how Google handles information when you use partner apps by reading 
+          <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps that use our services</a> 
+          and the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.
+        </div>
+      </section>
+
+      <section>
+        <h2>4. Cookies, Device Storage & Google EU User Consent</h2>
+        <p>
+          In accordance with the <strong>Google EU User Consent Policy</strong> and the European <strong>ePrivacy Directive</strong>:
+        </p>
+        <ul>
+          <li><strong>Storage of Identifiers:</strong> Google and its authorized advertising partners may store and access cookies, mobile identifiers, and device storage to deliver ads, measure ad effectiveness, and combat abuse.</li>
+          <li><strong>Consent Framework:</strong> For users located in the European Economic Area (EEA), the United Kingdom, and Switzerland, we present Google's certified <strong>User Messaging Platform (UMP)</strong> consent dialogue. This allows you to grant or withhold consent for personalized advertising and the associated use of cookies/identifiers.</li>
+          <li><strong>Certified Ad Technology Providers:</strong> The specific ad technology providers used by Google AdMob are itemized and disclosed directly within the consent management interface in compliance with the IAB Europe Transparency and Consent Framework (TCF).</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. European User Rights (GDPR & UK GDPR)</h2>
+        <p>
+          If you are situated in the EEA, the UK, or Switzerland, you possess specific legal rights regarding your personal data:
+        </p>
+        <ul>
+          <li><strong>Right to Withdraw Consent:</strong> You have the unconditional right to withdraw or adjust your consent choices at any time.</li>
+          <li><strong>Right of Access & Erasure:</strong> You may request access to or deletion of data collected by third-party providers.</li>
+          <li><strong>Right to Object:</strong> You can object to data processing based on legitimate interests for advertising.</li>
+          <li><strong>Right to Lodge a Complaint:</strong> You can submit a grievance to your national Data Protection Authority (DPA).</li>
+        </ul>
+
+        <h3>How to Manage or Withdraw Your Consent:</h3>
+        <ol>
+          <li><strong>In-App Privacy Settings:</strong> Access the consent options dialogue inside the App to reconfigure your ad preferences.</li>
+          <li><strong>Android Device Settings:</strong> Open <em>Settings &gt; Google &gt; Ads</em> and select <em>Delete advertising ID</em> or opt out of personalized ads.</li>
+          <li><strong>iOS Device Settings:</strong> Open <em>Settings &gt; Privacy &amp; Security &gt; Tracking</em> and disable tracking permissions for Scrow Calculator.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>6. California & US State Privacy Disclosures (CCPA / CPRA)</h2>
+        <p>
+          Under the California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA):
+        </p>
+        <ul>
+          <li><strong>No Monetary Sale:</strong> We do not sell your personal information for monetary payment.</li>
+          <li><strong>Cross-Context Behavioral Advertising:</strong> Third-party ad networks may utilize device identifiers to provide interest-based advertising. You may opt out of this sharing via your device's operating system advertising controls as outlined above.</li>
+          <li><strong>Non-Discrimination:</strong> Exercising your privacy rights will never result in degraded app functionality or penalty.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>7. Children's Online Privacy (COPPA & GDPR-K)</h2>
+        <p>
+          Scrow Calculator is designed for general audiences and card game enthusiasts. We do not knowingly collect personal information from children under 13 years of age (or under 16 in the European Union). If we become aware that a child has provided personal information without verified parental consent, we will promptly take steps to delete that data. If you have concerns, please reach out to us at <a href="mailto:kirolos.esmat10@gmail.com">kirolos.esmat10@gmail.com</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Data Retention & Security</h2>
+        <ul>
+          <li><strong>Local Data:</strong> All local match tallies and language preferences remain on your device until you uninstall the App or clear app storage.</li>
+          <li><strong>Advertising Logs:</strong> Data gathered by Google AdMob is retained in accordance with <a href="https://policies.google.com/technologies/retention" target="_blank" rel="noopener noreferrer">Google's retention policies</a>.</li>
+          <li><strong>Encryption:</strong> Transmission of ad requests occurs securely over encrypted Transport Layer Security (TLS/HTTPS).</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>9. Policy Updates</h2>
+        <p>
+          We may revise this Privacy Policy periodically to accommodate evolving regulations, store policies, or application features. Updated versions will be posted at this URL with an updated "Last Updated" timestamp.
+        </p>
+      </section>
+
+      <section>
+        <h2>10. Contact Information</h2>
+        <p>
+          For any questions, requests, or inquiries regarding this Privacy Policy, please contact:
+        </p>
+        <ul>
+          <li><strong>Developer:</strong> Kirolos Esmat</li>
+          <li><strong>Email:</strong> <a href="mailto:kirolos.esmat10@gmail.com">kirolos.esmat10@gmail.com</a></li>
+          <li><strong>GitHub Issues:</strong> <a href="https://github.com/kirolos-esmat/skrew-calculator/issues" target="_blank" rel="noopener noreferrer">github.com/kirolos-esmat/skrew-calculator/issues</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Kirolos Esmat &bull; Scrow Calculator (سكرو)</p>
+      <p style="margin-top: 0.5rem;">
+        <a href="https://github.com/kirolos-esmat/skrew-calculator" target="_blank" rel="noopener noreferrer">GitHub Repository</a> &bull;
+        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google AdMob Partner Disclosures</a>
+      </p>
+    </footer>
+  </div>
+
+</body>
+</html>
