@@ -33,6 +33,10 @@ Whether you are playing in Arabic or English, the app keeps each round clear so 
 
 For feedback or collaboration, contact [kirolos.esmat10@gmail.com](mailto:kirolos.esmat10@gmail.com).
 
+## Privacy Policy
+
+Please review our [Privacy Policy](PRIVACY_POLICY.md) for details on how we handle user data, third-party advertising, and Google EU User Consent compliance.
+
 ## License
 
 This project is proprietary. See [LICENSE](LICENSE); all rights are reserved by Hedwig Devs.
