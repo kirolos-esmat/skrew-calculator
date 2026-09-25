@@ -1,7 +1,7 @@
 # Privacy Policy for Skrew Calculator (سكرو)
 
-**Last Updated:** September 14, 2026  
-**Effective Date:** September 14, 2026  
+**Last Updated:** September 25, 2026<br>
+**Effective Date:** September 25, 2026<br>
 **Application Name:** Skrew Calculator (سكرو)
 **Developer:** Kirolos Esmat  
 **Contact Email:** [kirolos.esmat10@gmail.com](mailto:kirolos.esmat10@gmail.com)  
@@ -31,14 +31,14 @@ The App does not require user registration, account creation, or login. We do no
 
 ## 3. Third-Party Services and Advertising (Google AdMob)
 
-To support free development and maintenance of the App, we display advertisements provided by **Google AdMob** (a service of Google LLC).
+For users who report an age of 18 or older, the App may display advertisements provided by **Google AdMob** (a service of Google LLC) after the applicable consent flow. The App asks for age before initializing the advertising SDK. Users who report an age under 18 can use the App without AdMob ads. The entered age is used for this decision during the current session and is not saved.
 
 Google AdMob and its advertising partners collect and process certain technical data to serve advertisements, prevent fraud, and measure ad performance.
 
 The Google Play **Data safety** declaration is maintained separately in Play Console and must be kept consistent with the advertising SDKs and consent settings used by the released build. If the released build or its SDK configuration changes, review both this policy and the Play Console declaration before publishing an update.
 
 ### 3.1 Data Collected by Google AdMob
-When you use the App, Google AdMob may automatically collect:
+When ads are enabled for an adult user, Google AdMob may collect:
 - **Device and Advertising Identifiers:** Such as the Google Advertising ID (GAID / AAID) on Android, or the Identifier for Advertisers (IDFA) on iOS (if tracking permission is granted), and the Identifier for Vendor (IDFV).
 - **IP Address:** Used to estimate coarse (approximate) location (e.g., country, city, or region) for regional advertising and fraud detection.
 - **Device Information:** Device model, manufacturer, operating system version, screen resolution, mobile carrier, and system performance metrics.
@@ -64,7 +64,7 @@ For complete details on how Google handles your data, please review:
 Where applicable, the App uses Google's consent tools to support the **Google EU User Consent Policy** and relevant privacy requirements:
 
 - **Cookies and Local Storage Access:** Third-party advertising partners (including Google AdMob) may store and access cookies, mobile device identifiers, or device storage to serve ads, limit exposure to repeat ads, combat fraud, and generate anonymous performance metrics.
-- **Consent Collection:** Where the App presents a **Google User Messaging Platform (UMP)** consent dialogue, it gives you choices regarding the use of identifiers and the processing of personal data for personalized advertising.
+- **Consent Collection:** When the App presents a **Google User Messaging Platform (UMP)** consent dialogue, it gives you choices regarding the use of identifiers and the processing of personal data for personalized advertising.
 - **Ad Technology Providers:** Where provided by the consent management dialogue, Google discloses the ad technology providers used for the relevant request.
 
 ---
@@ -80,7 +80,7 @@ If you reside in the European Economic Area (EEA), United Kingdom, or Switzerlan
 - **Right to Lodge a Complaint:** You have the right to lodge a complaint with your local Data Protection Supervisory Authority (DPA).
 
 ### How to Withdraw or Change Consent:
-1. **Via In-App Consent Form:** Whenever the UMP consent options form is triggered or accessible from the App settings, you can update your preferences.
+1. **Via In-App Consent Form:** Where Google requires a privacy options form, use the privacy icon in the App to update your advertising choices.
 2. **Via Device Settings:** You can reset or delete your advertising identifier at any time:
    - **Android:** Go to *Settings* > *Google* > *Ads* > *Delete advertising ID* or *Opt out of Ads Personalization*.
    - **iOS:** Go to *Settings* > *Privacy & Security* > *Tracking* > Disable *Allow Apps to Request to Track*.
@@ -99,7 +99,7 @@ Under the California Consumer Privacy Act (CCPA) as amended by the California Pr
 
 ## 7. Children's Privacy (COPPA & GDPR-K)
 
-Skrew Calculator is designed for a general audience. We do not knowingly collect personal information from children under the age of 13 (or under 16 in the EEA/UK). If you are a parent or guardian and believe that your child has provided personal information to us or our third-party advertising partners without appropriate consent, please contact us at [kirolos.esmat10@gmail.com](mailto:kirolos.esmat10@gmail.com). We will promptly investigate and take steps to delete any such data.
+Skrew Calculator is intended for children and adults. The App asks for age before enabling advertising. Users who report an age under 18 do not receive AdMob ads, and their entered age is not stored. Game records remain on the device. If you are a parent or guardian with a privacy concern, contact [kirolos.esmat10@gmail.com](mailto:kirolos.esmat10@gmail.com).
 
 ---
 
@@ -107,7 +107,7 @@ Skrew Calculator is designed for a general audience. We do not knowingly collect
 
 - **Local Data:** Data stored locally on your device remains until you clear the application cache or storage, reset the game history in the App, or uninstall the App.
 - **AdMob Data:** Google retains advertising data according to its own retention schedules, typically keeping ad logs with pseudonymized identifiers for security and audit purposes as outlined in [Google's data retention policy](https://policies.google.com/technologies/retention).
-- **Security:** All communications with third-party ad services occur over secure, encrypted channels using Transport Layer Security (TLS / HTTPS).
+- **Security:** Ad requests use encrypted transport where supported by the advertising provider.
 
 ---
 
